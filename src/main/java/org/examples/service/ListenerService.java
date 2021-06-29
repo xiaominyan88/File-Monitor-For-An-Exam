@@ -9,7 +9,7 @@ import java.io.FileWriter;
 
 @Component
 public class ListenerService implements ListenerServiceInterface {
-    @Value("${exam.destination")
+    @Value("${exam.destination}")
     private String des_path;
 
     @Override
